@@ -4,7 +4,9 @@ setup(name='Ampel-base-ZTF',
       package_dir={'':'src'},
       package_data = {'': ['*.json']},
       packages=[
-          'ampel.ztf.pipeline.t0',
-          'ampel.ztf.view',
+            'ampel.ztf.pipeline.t0',
+            'ampel.ztf.pipeline.t0.load',
+            'ampel.ztf.utils',
+            'ampel.ztf.view',
       ],
 )
