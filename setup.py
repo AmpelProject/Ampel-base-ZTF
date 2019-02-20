@@ -5,5 +5,6 @@ setup(name='Ampel-base-ZTF',
       package_data = {'': ['*.json']},
       packages=[
           'ampel.ztf.pipeline.t0',
+          'ampel.ztf.view',
       ],
 )
